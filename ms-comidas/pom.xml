@@ -39,6 +39,23 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring-boot.version}</version> <!-- opcional si lo hereda del padre -->
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+				<!-- Si tu proyecto usa main class no estándar, podés forzarla:
+      <configuration>
+        <mainClass>com.example.comidas.ComidasApplication</mainClass>
+      </configuration>
+      -->
+			</plugin>
 		</plugins>
 	</build>
 </project>

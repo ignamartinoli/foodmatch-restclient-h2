@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  ms-comidas:
+    ports:
+      - "8081:8081"
+
+  ms-maridaje:
+    ports:
+      - "8082:8082"

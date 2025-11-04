@@ -18,4 +18,4 @@ GET {{comidas}}/1 HTTP/1.1
 
 ### Ver la sugerencia para esa comida
 
-GET {{maridaje}}/{{PIZZA.response.body.id}} HTTP/1.1
+GET {{maridaje}}/1 HTTP/1.1

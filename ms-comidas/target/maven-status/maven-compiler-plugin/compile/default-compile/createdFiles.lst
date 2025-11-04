@@ -1,0 +1,4 @@
+com/example/comidas/repo/ComidaRepository.class
+com/example/comidas/web/ComidaController.class
+com/example/comidas/domain/Comida.class
+com/example/comidas/ComidasApplication.class
